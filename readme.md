@@ -16,7 +16,7 @@ O objetivo deste projeto é automatizar o registro de usuário em um site, verif
 1. Certifique-se de estar no diretório raiz do projeto.
 2. Execute `npm run test` no terminal para iniciar a execução de todos testes automatizados.
 3. Execute `npm run test-api` no terminal para iniciar a execução apenas dos testes automatizados de api.
-4. Execute `npm run test-web` no terminal para iniciar a execução apenas dos testes automatizados de api.
+4. Execute `npm run test-web` no terminal para iniciar a execução apenas dos testes automatizados web.
 
 ### Estrutura do Projeto
 - **/tests**: Contém arquivos de teste escritos usando o Playwright.
