@@ -10,11 +10,13 @@ O objetivo deste projeto é automatizar o registro de usuário em um site, verif
 ### Instalação
 1. Clone este repositório em sua máquina local.
 2. Navegue até o diretório do projeto.
-3. Execute `npm install` ou `yarn install` para instalar as dependências do projeto.
+3. Execute `npm install` e `npx playwright install` para instalar as dependências do projeto.
 
 ### Execução dos Testes
 1. Certifique-se de estar no diretório raiz do projeto.
-2. Execute `npm playwright test` ou `yarn playwright test` no terminal para iniciar a execução dos testes automatizados.
+2. Execute `npm run test` no terminal para iniciar a execução de todos testes automatizados.
+3. Execute `npm run test-api` no terminal para iniciar a execução apenas dos testes automatizados de api.
+4. Execute `test-web` no terminal para iniciar a execução apenas dos testes automatizados de api.
 
 ### Estrutura do Projeto
 - **/tests**: Contém arquivos de teste escritos usando o Playwright.
@@ -28,4 +30,4 @@ Se deseja contribuir com melhorias, correções de bugs ou novos recursos, sinta
 Este projeto foi desenvolvido por Talys Eugênio Batista Ferreira e é mantido pela comunidade de desenvolvedores.
 
 ### Agradecimentos
-Agradecemos a todos os colaboradores e à comunidade de desenvolvedores pelo suporte e colaboração neste projeto.
+Agradeço a todos os colaboradores e à comunidade de desenvolvedores pelo suporte e colaboração neste projeto.

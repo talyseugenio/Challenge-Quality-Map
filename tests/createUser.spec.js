@@ -2,6 +2,8 @@ import { test, expect } from '@playwright/test';
 const RegisterPage = require('./pageObjects/RegisterPage.js');
 const { generateTestData } = require('./utils/utils.js');
 
+const testData = generateTestData();
+
 test.beforeEach(async ({ page }) => {
   await page.goto('/');
   await page.getByRole('link', { name: 'Register' }).click();
@@ -306,7 +308,6 @@ test('Registro com informações obrigatórias preenchidas, incluindo Gender, Da
 });
 
 test('Registro com informações obrigatórias preenchidas, incluindo Date of birth, Company Name e Newsletter desmarcada.', async ({ page }) => {
-  const testData = generateTestData();
   const registerPage = new RegisterPage(page);
 
   await registerPage.fillRegistrationForm(
@@ -316,7 +317,7 @@ test('Registro com informações obrigatórias preenchidas, incluindo Date of bi
     testData.day, 
     testData.month, 
     testData.year, 
-    'talys.ferreira@mazzafc.tech', 
+    testData.email, 
     testData.companyName, 
     false, 
     testData.password, 
@@ -466,7 +467,6 @@ test('Preenchimento Apenas do Campo Confirm password', async ({ page }) => {
 });
 
 test('Preenchimento de E-mail Já Cadastrado', async ({ page }) => {
-  const testData = generateTestData();
   const registerPage = new RegisterPage(page);
 
   await registerPage.fillRegistrationForm(
@@ -476,7 +476,7 @@ test('Preenchimento de E-mail Já Cadastrado', async ({ page }) => {
     testData.day, 
     testData.month, 
     testData.year, 
-    'talys.ferreira@mazzafc.tech', 
+    testData.email, 
     testData.companyName, 
     true, 
     testData.password, 
