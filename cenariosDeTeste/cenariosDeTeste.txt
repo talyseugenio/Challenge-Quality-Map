@@ -1,0 +1,188 @@
+Registro com informações válidas e campos obrigatórios preenchidos
+DADO QUE estou na página de registro do nopCommerce
+QUANDO eu preencher o formulário de registro com informações válidas
+E preencher apenas os campos obrigatórios
+E eu clicar no botão de registro
+ENTÃO devo ser redirecionado para uma página de boas vindas
+E devo ver uma mensagem de boas-vindas
+
+Registro com informações válidas e todos os campos preenchidos
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher o formulário de registro com informações válidas
+E preencher todos os campos
+E eu clicar no botão de registro
+ENTÃO devo ser redirecionado para a página inicial do site
+E devo ver uma mensagem de boas-vindas
+
+Registro com informações obrigatórias preenchidas, incluindo o campo Gender.
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher o formulário de registro com as informações obrigatórias
+E preencho o campo Gender
+E eu clicar no botão de registro
+ENTÃO devo ser redirecionado para a página inicial do site
+E devo ver uma mensagem de boas-vindas
+
+Registro com informações obrigatórias preenchidas, incluindo o campo Date of Birth.
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher o formulário de registro com as informações obrigatórias
+E preencho o campo Date of Birth
+E eu clicar no botão de registro
+ENTÃO devo ser redirecionado para a página inicial do site
+E devo ver uma mensagem de boas-vindas
+
+Registro com informações obrigatórias preenchidas, incluindo o campo Company Details
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher o formulário de registro com as informações obrigatórias
+E preencho o campo company details
+E eu clicar no botão de registro
+ENTÃO devo ser redirecionado para a página inicial do site
+E devo ver uma mensagem de boas-vindas
+
+Registro com informações obrigatórias preenchidas e opção Newsletter desmarcada.
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher o formulário de registro com as informações obrigatórias
+E desmarco a opção newsletter
+E eu clicar no botão de registro
+ENTÃO devo ser redirecionado para a página inicial do site
+E devo ver uma mensagem de boas-vindas
+
+Registro com informações obrigatórias preenchidas, incluindo Gender e Company Details.
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher o formulário de registro com as informações obrigatórias
+E preenchos os campos Gender, Company Details
+E eu clicar no botão de registro
+ENTÃO devo ser redirecionado para a página inicial do site
+E devo ver uma mensagem de boas-vindas
+
+Registro com informações obrigatórias preenchidas, incluindo Gender e Date of Birth.
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher o formulário de registro com as informações obrigatórias
+E preencho os campos Gender, Date of birth
+E eu clicar no botão de registro
+ENTÃO devo ser redirecionado para a página inicial do site
+E devo ver uma mensagem de boas-vindas
+
+Registro com informações obrigatórias preenchidas, incluindo Gender e Newsletter desmarcada.
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher o formulário de registro com as informações obrigatórias
+E preencho o campo Gender, desmarco Newsletter
+E eu clicar no botão de registro
+ENTÃO devo ser redirecionado para a página inicial do site
+E devo ver uma mensagem de boas-vindas
+
+Registro com informações obrigatórias preenchidas, incluindo Date of Birth e Company Details.
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher o formulário de registro com as informações obrigatórias
+E preencho os campos Date of Birth, Company Details
+E eu clicar no botão de registro
+ENTÃO devo ser redirecionado para a página inicial do site
+E devo ver uma mensagem de boas-vindas
+
+Registro com informações obrigatórias preenchidas, incluindo Date of Birth e Newsletter desmarcada.
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher o formulário de registro com as informações obrigatórias
+E preencho os campos Date of Birth, e desmarco Newsletter
+E eu clicar no botão de registro
+ENTÃO devo ser redirecionado para a página inicial do site
+E devo ver uma mensagem de boas-vindas
+
+Registro com informações obrigatórias preenchidas, incluindo Company Name e Newsletter desmarcada.
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher o formulário de registro com as informações obrigatórias
+E preencho o campo Company Name , e desmarco Newsletter
+E eu clicar no botão de registro
+ENTÃO devo ser redirecionado para a página inicial do site
+E devo ver uma mensagem de boas-vindas
+
+Registro com informações obrigatórias preenchidas, incluindo Gender, Date of birth e Company name
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher o formulário de registro com as informações obrigatórias
+E preencho os campos Gender, Date of birth, e Company name
+E eu clicar no botão de registro
+ENTÃO devo ser redirecionado para a página inicial do site
+E devo ver uma mensagem de boas-vindas
+
+Registro com informações obrigatórias preenchidas, incluindo Gender, Date of birth e Company name.
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher o formulário de registro com as informações obrigatórias
+E preencho os campos Gender, Date of birth, e desmarco Newsletter
+E eu clicar no botão de registro
+ENTÃO devo ser redirecionado para a página inicial do site
+E devo ver uma mensagem de boas-vindas
+
+Registro com informações obrigatórias preenchidas, incluindo Date of birth, Company Name e Newsletter desmarcada.
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher o formulário de registro com as informações obrigatórias
+E preencho os campos Date of birth, Company Name, e desmarco Newsletter
+E eu clicar no botão de registro
+ENTÃO devo ser redirecionado para a página inicial do site
+E devo ver uma mensagem de boas-vindas
+
+Campos Obrigatórios Não Preenchidos
+DADO QUE estou na página de registro do nopCommerce
+QUANDO não preencher nenhum campo
+E eu clicar no botão de registro
+ENTÃO deve ser mostrado os campos obrigatórios que estão faltantes
+
+Preenchimento Apenas do Campo First Name
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher apenas o campo First Name
+E eu clicar no botão de registro
+ENTÃO deve ser mostrado os campos obrigatórios que estão faltantes 
+
+Preenchimento Apenas do Campo Last Name
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher apenas o campo Last Name
+E eu clicar no botão de registro
+ENTÃO deve ser mostrado os campos obrigatórios que estão faltantes 
+
+Preenchimento Apenas do Campo Email
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher apenas o campo Email
+E eu clicar no botão de registro
+ENTÃO deve ser mostrado os campos obrigatórios que estão faltantes 
+
+Preenchimento Apenas do Campo Password
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher apenas o campo Password
+E eu clicar no botão de registro
+ENTÃO deve ser mostrado os campos obrigatórios que estão faltantes
+
+Preenchimento Apenas do Campo Confirm password
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher apenas o campo Confirm password
+E eu clicar no botão de registro
+ENTÃO deve ser mostrado os campos obrigatórios que estão faltantes
+
+Preenchimento de E-mail Já Cadastrado
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher todos os dados obrigatórios 
+E informar um e-mail já cadastrado
+E eu clicar no botão de registro
+ENTÃO deve ser mostrado uma mensagem que o E-mail já está em uso
+
+Preenchimento de E-mail em Formato Incorreto
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher o formulário de registro com informações válidas
+E preencher o email com um e-mail em formato incorreto
+E preencher todos os campos
+E eu clicar no botão de registro
+ENTÃO deve ser mostrada uma mensagem que o e-mail está incorreto
+
+Preenchimento de Password com Menos de 6 Caracteres
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher o formulário de registro com informações válidas
+E preencher o Password com menos de 6 caractéres 
+E preencher todos os campos
+E eu clicar no botão de registro
+ENTÃO deve ser mostrada uma mensagem que o Password está com menos de 6 caracteres
+
+Preenchimento de Confirm Password Divergente
+DADO QUE estou na página de registro do nopCommerce
+QUANDO preencher o formulário de registro com informações válidas
+E preencher o Password com mais de 6 caractéres 
+E Confirm password diferente de Password
+E preencher todos os campos
+E eu clicar no botão de registro
+ENTÃO deve ser mostrada uma mensagem que o Confirm password está divergente de Password 
+
